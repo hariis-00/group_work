@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: my_data_analysis_app
+    environment:
+      - MONGODB_URI=mongodb+srv://admin:123@cluster0.uvofxqx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    volumes:
+      - .:/app
+    command: ["python", "Data.ipynb"]
