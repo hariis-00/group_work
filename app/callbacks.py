@@ -2,7 +2,6 @@ import pandas as pd
 from dash.dependencies import Input, Output
 import plotly.express as px
 
-# Lade die CSV-Datei
 df = pd.read_csv('/data/appearances_cleaned.csv')
 
 def register_callbacks(app):
