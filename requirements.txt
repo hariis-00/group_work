@@ -2,5 +2,11 @@ kaggle
 pandas
 requests
 pymongo
+notebook
 matplotlib
 seaborn
+dash
+flask
+plotly
+gunicorn
+mpld3

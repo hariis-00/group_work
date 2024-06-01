@@ -17,4 +17,4 @@ COPY . .
 ENV MONGODB_URI="mongodb+srv://admin:123@cluster0.uvofxqx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Führe das Skript aus
-CMD ["python", "Data.ipynb"]
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:8000", "app:create_app()"]
