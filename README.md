@@ -1,2 +1,2 @@
-# group_work
-Group work in Scientific Programming
+Groupwork in Scientific Programming by:
+Christopher Alvaro & Haris Jusmani
